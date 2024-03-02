@@ -1,0 +1,37 @@
+.slider {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+
+img {
+    display: block;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    object-fit: cover;
+    display: none;
+}
+
+.active{
+    display: inline;
+}
+
+
+
+.right {
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 180px;
+}
+
+
+.left {
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 180px;
+}
